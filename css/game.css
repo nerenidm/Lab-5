@@ -1,0 +1,15 @@
+.background    { background: rgb(241, 127, 145);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(217, 109, 25); }
+.wall          { background: white;   }
+.spike         { background: yellow;  }
+.coin          { background: silver;  }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
